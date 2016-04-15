@@ -1,0 +1,58 @@
+// $gray-dark:              lighten(#000, 13%) !default;
+$font-size-base:          15px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+
+$default-border-radius: 3px !default;
+$body-bg:               #fff !default;
+$text-color:            #58595B !default;
+$link-color:            #444 !default;
+$link-hover-color:      #111 !default;
+$link-disabled-color:   #939393;
+
+$font-family-sans-serif:  "Apple SD Gothic Neo","Nanum Gothic","Malgun Gothic",Helvetica,sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$line-height-base:        1.428571429 !default; // 20/14 //
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+$primary-color: #29BCEE !default;
+
+$brand-primary: $primary-color;
+$brand-success:         #5cb85c !default; //
+$brand-info:            #5bc0de !default; //
+$brand-warning:         lighten(rgb(255, 0, 0), 30%) !default; //
+$brand-danger:          #d9534f !default; //
+$brand-primary-light:   #29ba68 !default;
+
+
+$blue-gray-900: #263238 !default;
+$blue-gray-700: #455a64 !default;
+$blue-gray-600: #546e7a !default;
+$blue-gray-300: #90a4ae !default;
+$blue-gray-200: #b0bec5 !default;
+$blue-gray-100: #cfd8dc !default;
+$blue-gray-50: #eceff1 !default;
+
+
+$gray-2:        hsl(0, 0, 98)        !default; // hsb(213, 0, 98)   #FBFBFB
+$gray-4:        hsl(220, 13, 95)     !default; // hsb(218, 1, 96)   #F2F3F5
+$gray-10:       hsl(214, 12, 89)     !default; // hsb(213, 2, 90)   #DFE2E6
+$gray-17:       hsl(210, 11, 82)     !default; // hsb(208, 4, 83)   #CBD0D5
+$gray-31:       hsl(212, 11, 66)     !default; // hsb(210, 10, 69)  #9EA7B1
+$gray-37:       hsl(212, 9, 60)      !default; // hsb(210, 11, 63)  #9099A3
+$gray-40:       hsl(211, 9, 55)      !default; // hsb(210, 13, 59)  #828C97
+$gray-57:       hsl(214, 13, 38)     !default; // hsb(213, 22, 43)  #55606E
+$gray-90:       hsl(210,25,8)        !default; // hsb(208, 40, 9)   #0F1419
+
+$breakpoints: (
+  'x-small'   : ( max-width:  320px ),
+  'small'     : ( max-width:  767px ),
+  'medium'    : ( max-width:  980px ),
+  'large'     : ( min-width: 1200px ),
+  'x-large'   : ( min-width: 1600px ),
+  'xx-large'  : ( min-width: 2000px )
+);

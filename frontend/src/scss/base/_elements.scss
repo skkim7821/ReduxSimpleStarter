@@ -1,0 +1,104 @@
+.gutter {
+  margin-left: 38px
+}
+.clear {
+  clear: both
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden
+}
+.hide {
+  display: none
+}
+.show {
+  display: block
+}
+.bold {
+  font-weight: bold
+}
+.center {
+  text-align: center
+}
+.left {
+  float: left
+}
+.right {
+  float: right
+}
+.first {
+  margin-left: 0;
+  padding-left: 0
+}
+.last {
+  margin-right: 0;
+  padding-right: 0
+}
+.top {
+  margin-top: 0;
+  padding-top: 0
+}
+.bottom {
+  margin-bottom: 0;
+  padding-bottom: 0
+}
+.relative {
+  @include relative;
+}
+.block {
+  display: block
+}
+.inline {
+  display: inline
+}
+.inline-block {
+  display: inline-block
+}
+.inline-object {
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.pointer {
+  cursor: pointer
+}
+.ellip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+.underline {
+  text-decoration: underline
+}
+.lowercase {
+  text-transform: lowercase
+}
+.invisible {
+  visibility: hidden
+}
+.wrapword {
+  word-wrap: break-word
+}
+.grab {
+  @include grab;
+}
+.grabbing {
+  @include grabbing;
+}
+.scroll-freeze {
+  overflow: hidden;
+}
+.for-mobile {
+  display: none;
+}
