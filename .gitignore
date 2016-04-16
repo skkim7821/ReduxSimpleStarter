@@ -2,3 +2,4 @@
 /frontend/dist/bundle.js
 /frontend/dist/main.css
 npm-debug.log
+.DS_Store
